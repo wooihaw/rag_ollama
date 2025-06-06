@@ -15,6 +15,7 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) system implemen
 -   [Running the Project](#running-the-project)
     -   [1. Clone the Repository](#1-clone-the-repository)
     -   [2. Install Project Dependencies](#2-install-project-dependencies)
+    -   [3. Running the Python Scripts](#3-running-the-python-scripts)
 
 ## Features
 
@@ -116,3 +117,15 @@ This command will:
 - Automatically create a virtual environment in `.venv` if it doesn't exist
 - Install all dependencies from `pyproject.toml` (and `uv.lock` if present)
 
+### 3. Running the Python Scripts
+
+Once the environment and dependencies have created and installed, enter the following command in a terminal:
+
+```bash
+uv run rag_ollama_web_txt_memory.py
+```
+
+To launch the web app version, enter the following command in a terminal:
+```bash
+uv run streamlit run rag_ollama_streamlit.py
+```
