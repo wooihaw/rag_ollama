@@ -11,6 +11,7 @@ wheels/
 
 # ChromaDB
 chroma_db_ollama_memory/
+chroma_db_ollama_memory_st/
 
 # Local documents
 local_docs/
