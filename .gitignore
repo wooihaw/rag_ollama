@@ -15,3 +15,7 @@ chroma_db_ollama_memory_st/
 
 # Local documents
 local_docs/
+
+# Old Python scripts
+rag_ollama_web.py
+rag_ollama_web_memory.py
